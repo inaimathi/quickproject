@@ -2,5 +2,5 @@
 ;;
 ;;;; (#| TMPL_VAR copyright |#)(#| /TMPL_IF |#)
 
-(defpackage #:(#| TMPL_VAR name |#)-test
+(defpackage #:(#| TMPL_VAR name |#)/test
   (:use #:cl #:(#| TMPL_VAR name |#) #:test-utils))

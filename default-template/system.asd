@@ -14,7 +14,7 @@
 		((:file "package")
 		 (:file "(#| TMPL_VAR name |#)")))))
 
-(asdf:defsystem #:(#| TMPL_VAR name |#)-test
+(asdf:defsystem #:(#| TMPL_VAR name |#)/test
   :description "Test suite for :(#| TMPL_VAR name |#)"
   :author "(#| TMPL_VAR author |#)"
   :license "(#| TMPL_VAR license |#)"

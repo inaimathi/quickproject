@@ -2,7 +2,7 @@
 ;;
 ;;;; (#| TMPL_VAR copyright |#)(#| /TMPL_IF |#)
 
-(in-package #:(#| TMPL_VAR name |#)-test)
+(in-package #:(#| TMPL_VAR name |#)/test)
 
 (tests
  (is (+ 2 3) 5 "Addition works")
